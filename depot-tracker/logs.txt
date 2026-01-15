@@ -1,0 +1,5 @@
+2023-11-15 03:30:01 [SYSTEM] Handshake initiated with depot: POR_EL_QUADA
+2023-11-15 03:30:02 [DATA]  Received identifier stream: 77 61 6E 6E 61 68 61 76 65 66 75 6E 77 38
+2023-11-15 03:30:03 [ERROR] Coordinate parsing failed. Received: 33 2C 31 2C 37 38 39 30
+2023-11-15 03:30:04 [ERROR] Fallback triggered. Entry truncated.
+2023-11-15 03:30:05 [SYSTEM] Connection terminated.
