@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background: #0f0f0f;
+    color: #00ff00;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #00ff00;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+.subtitle {
+    color: #888;
+    margin-bottom: 30px;
+    font-size: 0.9em;
+}
+
+.depot-card {
+    background: #222;
+    border: 1px solid #333;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: all 0.3s;
+}
+
+.depot-card:hover {
+    border-color: #00ff00;
+    background: #252525;
+}
+
+.depot-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.depot-name {
+    font-size: 1.2em;
+    color: #00ff00;
+}
+
+.depot-status {
+    padding: 4px 12px;
+    border-radius: 3px;
+    font-size: 0.8em;
+}
+
+.status-active {
+    background: #004400;
+    color: #00ff00;
+}
+
+.status-anomaly {
+    background: #442200;
+    color: #ff9900;
+}
+
+.depot-info {
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+.info-row {
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.info-label {
+    width: 120px;
+    color: #666;
+}
+
+.footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    color: #666;
+    font-size: 0.8em;
+}

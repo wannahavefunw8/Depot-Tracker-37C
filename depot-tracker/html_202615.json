@@ -1,0 +1,31 @@
+{
+  "depots": [
+    {
+      "id": "nyc_main",
+      "name": "New York Main Depot",
+      "status": "ACTIVE",
+      "coordinates": "40.7128° N, 74.0060° W",
+      "lastUpdated": "2024-01-15 14:30:00",
+      "assets": 147,
+      "notes": "Standard operations"
+    },
+    {
+      "id": "por_el_quada",
+      "name": "Por El Quada",
+      "status": "DATA ANOMALY",
+      "coordinates": "COORDINATE RESOLUTION PENDING",
+      "lastUpdated": "2023-11-15",
+      "assets": "UNKNOWN",
+      "notes": "Location identifier mismatch in logs"
+    },
+    {
+      "id": "la_west",
+      "name": "Los Angeles West",
+      "status": "ACTIVE",
+      "coordinates": "34.0522° N, 118.2437° W",
+      "lastUpdated": "2024-01-14 09:15:00",
+      "assets": 89,
+      "notes": "Normal operations"
+    }
+  ]
+}
